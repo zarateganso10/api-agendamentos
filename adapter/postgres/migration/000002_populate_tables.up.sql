@@ -1,0 +1,1 @@
+INSERT INTO users_type (name) VALUES ('admin'), ('client'), ('employee');

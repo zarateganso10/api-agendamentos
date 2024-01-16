@@ -1,0 +1,46 @@
+GET http://localhost:3000/users
+
+###
+GET http://localhost:3000/users/a0e8a81b-a4e0-4b05-a9de-31bfac219e84
+
+###
+POST http://localhost:3000/users
+Content-Type: "application/json"
+
+{
+    "name": "Matheus Viera Zarate",
+    "type": "client",
+    "companyId": "123",
+    "email": "matheus@asda.com",
+    "password": "12345"
+}
+
+###
+DELETE http://localhost:3000/users/d846cc6b-fe39-42fd-9cec-3e66ca0914fd
+
+###
+POST http://localhost:3000/auth
+Content-Type: "application/json"
+
+{
+    "email": "matheus@gmail.com",
+    "password": "1234"
+}
+
+
+###
+GET http://localhost:3000/companies
+
+###
+GET http://localhost:3000/companies/a21039e1-5c3d-4964-a4da-8f82d376ee5d
+
+###
+POST http://localhost:3000/companies
+Content-Type: "application/json"
+
+{
+    "name": "Consultorio Torugo",
+    "email": "torugo@gmail.com"
+}
+
+

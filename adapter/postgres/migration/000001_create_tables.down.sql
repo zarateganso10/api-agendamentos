@@ -1,0 +1,6 @@
+DROP TABLE IF EXISTS appointments;
+DROP TABLE IF EXISTS users;
+DROP TABLE IF EXISTS users_type;
+DROP TABLE IF EXISTS companies;
+
+DROP EXTENSION IF EXISTS "uuid-ossp";

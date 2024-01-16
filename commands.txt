@@ -1,0 +1,1 @@
+migrate create -ext sql -dir adapter/postgres/migration/ -seq create_table_companies
